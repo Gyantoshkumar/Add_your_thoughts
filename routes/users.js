@@ -8,9 +8,6 @@ const router=express.Router();
 require('../models/User');
 const User=mongoose.model('users'); 
 
-
-
-
 //User login Route
 router.get('/login',(req,res)=>{
 	res.render('users/login');
