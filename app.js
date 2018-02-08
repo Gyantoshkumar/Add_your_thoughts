@@ -83,9 +83,16 @@ app.get('/',(req,res)=>
     });
 });
 
-app.get('/about',(req,res)=>
-{	res.render('about');
+//request to gyan
+app.get('/gyan',(req,res)=>
+{	res.render('gyan');
 });
+//request to gyanshala
+app.get('/gyanshala',(req,res)=>
+{	res.render('gyanshala');
+});
+
+
 
 //get request of home
 app.get('/home',(req,res)=>
